@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
+    vendor/xiaomi/sdm660-common/proprietary/vendor/bin/qcc-trd:$(TARGET_COPY_OUT_VENDOR)/bin/qcc-trd \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
     vendor/xiaomi/sdm660-common/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
@@ -732,6 +733,7 @@ PRODUCT_PACKAGES += \
     WfdService \
     CneApp \
     IWlanService \
+    QCC-TR-UI \
     TimeService \
     PowerOffAlarm \
     DeviceInfo \
